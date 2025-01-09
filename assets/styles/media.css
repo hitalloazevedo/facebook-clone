@@ -1,0 +1,21 @@
+@media screen and (min-width: 901px) {
+    body {
+        height: 80vh;
+        display: flex;
+    }
+
+    .container {
+        flex-direction: row;
+        width: 980px;
+        gap: 3rem;
+    }
+
+    .container > .text-content {
+        align-items: start;
+    }
+
+    .container > .text-content  p{
+        text-align: left;
+        padding-left: 2rem;
+    }
+}
